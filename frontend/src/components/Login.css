@@ -1,0 +1,57 @@
+.outer_box{
+     padding-top: 8rem;
+}
+.login_container{
+    padding: 1rem;
+    border:2px solid transparent;
+    color: rgb(44, 58, 58);
+    /* border-image:linear-gradient( rgb(1, 224, 224), rgb(111, 231, 231),rgb(154, 196, 196)) 15; */
+    box-shadow: 0px 0px 10px 0px rgb(94, 246, 246);
+    overflow: hidden;
+    border-radius: 12px;
+    width: 40%;
+    margin: auto;
+    
+}
+.login_container>h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.login_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:1rem 0;
+    
+}
+.login_email{
+    margin:0 1rem;
+}
+.login_row  input{
+    width: 100%;
+    margin:0 1rem;
+    padding: 0.5rem 0.3rem;
+    font-size: large;
+    border-width: 1px;
+    border-radius: 12px;
+    border-color: rgb(140, 241, 241);
+    outline-style: none;
+
+}
+.login_container> button{
+        width: 123px;
+        padding: 0.5rem 2rem;
+        border-radius: 12px;
+        color: rgb(16, 155, 155);
+        border-color: rgb(140, 241, 241);
+        box-shadow: 0px 0px 10px 0px rgb(140, 241, 241);
+        outline-style: none;
+        cursor: pointer;
+        margin: auto;
+        display: flex;
+}
+.login_container>button:hover{
+    background-color: rgb(224, 255, 255);
+    color: rgb(16, 155, 155);
+}

@@ -1,0 +1,35 @@
+.nav {
+    background: white;
+    color: Black;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    text-align: center;
+    position: sticky;
+    top:0;
+    /* border-bottom: 1px solid #fff; */
+}
+
+.link {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #524a4a;
+    font-weight: 600;
+}
+
+.link:hover,
+.nav_logout:hover {
+    color: rgb(0, 0, 0);
+}
+
+.link.active {
+    color: rgb(0,0,0);
+}
+
+.nav_logout {
+    cursor: pointer;
+    margin: 0 10px;
+    color: #ccc;
+    font-weight: 600;
+    font-size: medium;
+}
